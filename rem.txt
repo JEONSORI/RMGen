@@ -1,0 +1,2 @@
+1. For current (x) angular flux (o)
+2. /RM/old : correct RMs but made before renewal (stack used, Nfuel = 3)

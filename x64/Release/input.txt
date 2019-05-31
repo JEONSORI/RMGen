@@ -1,0 +1,35 @@
+CASEID UO2
+GEOM
+ npins 1
+ pitch 1.26
+ cell 1 0.54 / 1 7 ! UO2
+ cell 2 0.54 / 2 7 ! 7.0 MOX
+ cell 3 0.54 / 3 7 ! 8.7 MOX
+ cell 4 0.54 / 4 7 ! 4.3 MOX
+ cell 5 0.54 / 5 7 ! GT
+ cell 6 0.54 / 6 7 ! Fission Chamber
+ cell 7    / / 7   ! Moderator
+
+ pin 1 1 
+ pin 2 2 
+ pin 3 3 
+ pin 4 4 
+ pin 5 5 
+ pin 6 6 
+ pin 7 7 
+ 
+ assembly 1 
+ 1 
+ 
+ rad_conf
+  1
+
+ albedo 0.0 0. 0.0 0. 0.0 0.
+
+XS XS_C5G7.lib
+
+OPTION
+  particle 100000000
+  active 900
+  inactive 100
+.
